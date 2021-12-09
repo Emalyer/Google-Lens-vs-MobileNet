@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body class="main">
+    <center>
+<div class="col-xs-12 header_div">
+  <h2>Case Study Google Lens vs MobileNet
+  </h2>
+
+  </div>
+<br>
+<br>
+<center>
+<img src="Water Bottle.jpg"id="img1" onclick="WaterBottle()">
+<p>Result On Google Lens- Water Bottle <br> Result On MobileNet- Water Bottle <br>
+                              Draw.</p>
+<br>
+<br>
+<br>
+<img src="Mouse.jpg" id="img2" onclick="Mouse()">
+<p>Result On Google Lens- Bluetooth Mouse <br> Result On MobileNet- Mouse, Computer Mouse  <br>
+  Google Lens Won.</p>
+<br>
+<br>
+<br>
+<img src="Spray.jpg" id="img3" onclick="Spray()">
+<p>Result On Google Lens- Air Freshener Spray <br> Result On MobileNet- Pop Bottle, Soda Bottle <br>
+  Google Lens Won.</p>
+<br>
+<br>
+<br>
+<img src="Book.jpg" id="img4" onclick="Book()">
+<p>Result On Google Lens- Encyclopedia <br> Result On MobileNet-  Slot, One-Armed Bandit <br>
+  Google Lens Won.</p>
+<br>
+<br>
+<br>
+<img src="iPad.jpg" id="img5" onclick="iPad()">
+<p>Result On Google Lens- iPad Pro <br> Result On MobileNet- Remote control, Remote <br>
+  Google Lens Won.</p>
+<br>
+<br>
+<br>
+</div>
+</center>
+<div class="col-sm-6 col-xs-12 main_div">
+  </div>
+  <div class="col-xs-12 footer_div">
+    <h4 class="col-sm-6 col-xs-12">
+      <span id="object_name"></span>
+    </h4>
+  </div> 
+</center>
+
+
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
